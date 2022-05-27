@@ -23,5 +23,23 @@
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
+    
+    <!-- Display settings screen, display white balance settings title -->
+    <bool name="display_white_balance_title">true</bool>
+     
+    <!-- Display settings screen, display white balance settings summary -->
+    <bool name="display_white_balance_summary">true</bool>
+     
+    <!-- Display settings screen, peak refresh rate settings summary -->
+    <bool name="peak_refresh_rate_summary">true</bool>
+     
+    <!-- Display developer settings: Force to the highest refresh rate -->
+    <bool name="force_high_refresh_rate_toggle">true</bool>
+     
+    <!-- Display developer settings: Force to the highest refresh rate description -->
+    <bool name="force_high_refresh_rate_desc">true</bool>
+     
+    <!-- Display settings screen, setting option name to enable adaptive sleep -->
+    <bool name="adaptive_sleep_title">true</bool>
 
 </resources>
