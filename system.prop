@@ -79,3 +79,6 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Rescue Party
 persist.sys.disable_rescue=true
+
+# Disable remote keyguard animation
+persist.wm.enable_remote_keyguard_animation=0
