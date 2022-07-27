@@ -170,6 +170,8 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
     Settings \
