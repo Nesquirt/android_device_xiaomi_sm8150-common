@@ -282,6 +282,8 @@ persist.vendor.sensors.enable.mag_filter=true
 sys.vendor.shutdown.waittime=500
 
 # Skia
+debug.renderengine.backend=skiaglthreaded
+debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true
 
 # USB
