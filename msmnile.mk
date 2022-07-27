@@ -169,6 +169,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Launcher3QuickStep \
+    Settings \
+    SystemUI
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-impl \
