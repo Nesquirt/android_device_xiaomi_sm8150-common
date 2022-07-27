@@ -236,6 +236,11 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 vendor.gralloc.disable_ubwc=0
 ro.vendor.perf.scroll_opt=true
 
+# Blur
+ro.sf.blurs_are_expensive=1
+ro.surface_flinger.supports_background_blur=1
+ro.launcher.blur.appLaunch=0
+
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0
